@@ -1,3 +1,35 @@
+.my-logo {
+  z-index: -1;
+  width: 300px;
+  height: 509px;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  right: 20%;
+  bottom: 0;
+  left: auto;
+  margin: auto;
+  transition: all ease-in 5s;
+  img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: rotateZ(0);
+    opacity: 0;
+    animation: rotateImage 3s ease-in-out forwards; /* Animation properties */
+  }
+}
+
+@keyframes rotateImage {
+  from {
+    transform: rotateZ(0); /* Starting rotation */
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: rotateZ(30deg); /* Final rotation */
+  }
+}
 .home-page {
   .text-zone {
     position: absolute;
@@ -125,5 +157,12 @@
     left: 0;
     z-index: -1;
     margin: auto;
+  }
+  .my-logo img {
+    position: absolute;
+    top: 60%;
+    height: 70%;
+    width: 70%;
+    z-index: -1;
   }
 }

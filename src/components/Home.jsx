@@ -4,7 +4,8 @@ import LogoTitle from "../assets/images/logo-s.png";
 import AnimatedLetters from "./AnimatedLetters";
 import Loader from "react-loaders";
 import { Link } from "react-router-dom";
-import Logo from "./Logo";
+// import Logo from "./Logo";
+import LogoS from "../assets/images/logo-s.png";
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
@@ -58,7 +59,10 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
-        <Logo />
+        {/* <Logo /> */}
+        <div className="my-logo">
+          <img src={LogoS} alt="Shubham logo" />
+        </div>
       </div>
       <Loader type="pacman" />
     </>
