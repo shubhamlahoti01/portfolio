@@ -44,9 +44,11 @@ const About = () => {
             improving my chops one design problem at a time.
           </p>
           <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+            A reliable and detailed oriented individual looking for Internship
+            as a FULL STACK SOFTWARE DEVELOPER. Offering expertise in Frontend
+            Technologies like Javascript, React.js, TailwindCss and for backend
+            NodeJs, ExpressJs with database like MongoDB and Firebase. Also
+            Familiar with Redux for state management and Axios for API Calling
           </p>
         </div>
 
