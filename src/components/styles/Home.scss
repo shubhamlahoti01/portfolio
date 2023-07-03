@@ -166,3 +166,13 @@
     z-index: -1;
   }
 }
+@media screen and (max-width: 500px) {
+  .home-page {
+    h1 {
+      font-size: 40px;
+    }
+    .my-logo img {
+      top: 70%;
+    }
+  }
+}

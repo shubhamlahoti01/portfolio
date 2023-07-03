@@ -83,7 +83,20 @@
 @media screen and (max-width: 1200px) {
   .stage-cube-cont {
     width: 100%;
-    padding-top: 70%;
-    margin-top: 180px;
+    padding-top: 45%;
+    // margin-top: 0;
+  }
+}
+@media screen and (max-width: 700px) {
+  .stage-cube-cont {
+    width: 100%;
+    // padding-top: 45%;
+    margin-top: 200px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .stage-cube-cont {
+    margin-top: 320px;
   }
 }
